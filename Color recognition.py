@@ -128,7 +128,7 @@ for Picture in os.listdir("Image to Image reconstruction/images"):
 
 
 #Final loop which recreates the pictue
-Pic = "Alice" # Enter the title of a jpg picture
+Pic = "Richi" # Enter the title of a jpg picture. I tried a familiar face :))
 #run script
 Pic = Image.open("Image to Image reconstruction/"+Pic+".jpg")
 Pic = Pic.resize((1000,1000))
@@ -201,4 +201,4 @@ for i in range(1,101):
             NewPic.paste(rImg,(xstart,ystart))
         else:
             print("Fail")
-NewPic.save("Image to Image reconstruction/Alice.jpg")
+NewPic.save("Image to Image reconstruction/NewPic.jpg")
