@@ -28,7 +28,7 @@ for Bild in PicList:
 RGB#dont lose it we will need it
 
 ##Picture recreation
-Name = "Charlie"#insert a picture name. without jpgfileformat or delete in next line!
+Name = input("Whats the picture name?")#insert a picture name. without jpgfileformat or delete in next line!
 Pic  = Image.open("Image to Image reconstruction/"+Name+".jpg")#Open Picture
 Pic = Pic.resize([1000,1000])#standardize picture. Possible improvement by using locked or fixed ration.
 NewPic = Image.new('RGB',(10000,10000))#create new canvas
