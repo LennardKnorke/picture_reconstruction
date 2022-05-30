@@ -7,3 +7,6 @@ L 22.05: So. The PenisPy.py file is the original script I told you. It entails a
 
 
 L 26.05: Updated the Color recognition file to sort it more and added some explanatory comments. Cleaned up the advanced cheat and will continue what that one.
+
+L 30.05: https://drive.google.com/file/d/14xiYl8qxMgkQa3BH2slDPBZYU9a_2jbG/view?usp=sharing
+          Contains around 100dickpics prior to scraping for them.
