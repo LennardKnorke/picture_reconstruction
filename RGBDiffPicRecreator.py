@@ -36,7 +36,7 @@ while True:
     if Resizing == "1":
         x, y = Pic.size
         while int(x)%10 != 0 and int(y)%10:
-            y +=1
+            y +=1####This.... this is kinda meh...
             x += 1
         Pic = Pic.resize([x,y])
         break
