@@ -68,8 +68,10 @@ PEEENIS("UnknownPerson.jpg")#Call a picture# Call function: PEEENIS()
 ##Alpha2.0 using 8 Colors
 ##PreComments
 #One issue I am having is with my workspace. As you can see I have specific name still for the folders in which stuff is supposed to be. Is there an easy fix?
-#
-#Feed a list or tuple with 3 values(R,G,B) and it tells you which of the 8 colors it belongs to
+###UPdate: I can fix it but I am too lazy and its not worth anymore.
+
+
+#Feed a list or tuple with 3 values(R,G,B) and it tells you which of the 8 colors it belongs to.
 def DefCol (PicValue):
     if PicValue[0] <= 128:
         if PicValue[1]<=128:
