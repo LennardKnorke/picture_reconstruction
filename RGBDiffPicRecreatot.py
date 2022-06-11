@@ -45,10 +45,11 @@ while True:
         break
     else:
         print("Error. Wrong Input!")
-
-steps = input("How accurate is it supposed to be")
-
-####K Now the hard part begins. Getting a recreation for every height to width ratio possible.
+#######
+steps = input("How accurate is it supposed to be")#
+###The point of this is to have a choice between degree of detail but adding more pictures or processing faster but ending up with a lower resolution. Basically in howmany segments you can seperate the picture.
+###But there is an issue because it can be every number because you need a fittingdistribution within the picutre. I'm tired but maybe one of you has an idea
+####
 Pwidth, Pheight = Pic.size #
 
 PwidthNew = Pwidth*10
