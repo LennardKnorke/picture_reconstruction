@@ -12,7 +12,7 @@ from sklearn.neighbors import NearestNeighbors
 if os.path.exists('Image database') == False:
     os.mkdir('Image database')
 
-##TO DO! Ether pick local filler pics or online search!
+##TO DO! Either pick local filler pics or online search!
 #Input
 #If local skip
 #If Online
