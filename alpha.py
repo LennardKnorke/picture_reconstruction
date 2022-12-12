@@ -12,15 +12,7 @@ from sklearn.neighbors import NearestNeighbors
 if os.path.exists('Image database') == False:
     os.mkdir('Image database')
 
-##TO DO! Ether pick local filler pics or online search!
-#Input
-#If local skip
-#If Online
-    #create folder in image database
-        #Go to google
-        #Choose color and download pictures into the folder.
-        #repeat 100, 200 times? or if certain conditions are fullfilled?
-#Load database into /image/ 
+
 print(list(os.listdir("Image database")))
 small_image_folder_name = input("Choose an available image folder or create a 'new' one")
 while True:
